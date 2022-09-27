@@ -1,0 +1,12 @@
+model: test-13364
+destination: webhookofdestiny-52834
+config:
+  mappings:
+    - to: id
+      from: id
+    - to: hamburger
+      from: transformed_data
+  autoSyncColumns: false
+schedule:
+  type: manual
+schedulePaused: false
