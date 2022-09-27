@@ -3,7 +3,7 @@ source: hightouchsource-7784
 type: raw_sql
 rawSql: |
   select id, 
-         case when source_data = 0 then 'foot'
+         case when source_data != 0 then 'foot'
          when source_data = 1 then 'bar' END as transformed_data
   from Sheet1 
 isSchema: false
