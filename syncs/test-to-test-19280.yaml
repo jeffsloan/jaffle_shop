@@ -1,0 +1,12 @@
+model: test-13364
+destination: test-52833
+config:
+  url: >-
+    https://docs.google.com/spreadsheets/d/1Zjd959R38VF8of-4xOwACDURHLZSJSFF8wZlBb7vRXs/edit?usp=drivesdk
+  name: Hightouch Destination
+  sheetName: Sheet1
+  spreadsheetId: 1Zjd959R38VF8of-4xOwACDURHLZSJSFF8wZlBb7vRXs
+  autoSyncColumns: true
+schedule:
+  type: manual
+schedulePaused: false
